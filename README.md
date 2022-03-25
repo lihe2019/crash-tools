@@ -4,11 +4,11 @@
 dependence
 需要先安装rust
 ```bash
-# MacOS
-brew install rust
-# Centos
-yum install rust
-git clone git@github.com:lihe2019/crash-tools.git
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# To configure your current shell, run:
+source $HOME/.cargo/env
+git clone https://github.com/lihe2019/crash-tools.git
 cargo build --release
 ```
 
@@ -16,6 +16,7 @@ cargo build --release
 
 # 使用
 ```bash
+cd target/release
 ./crash-tools p 59400
 ./crash-tools 6 "{5112356, 9377040, 3281321984, 2867013992}"
 ./crash-tools 4 402657452
