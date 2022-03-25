@@ -1,0 +1,12 @@
+[package]
+name = "crash-tools"
+version = "0.1.0"
+edition = "2021"
+authors = ["lihe2019@foxmail.com"]
+description = "a tool to parse crash network context with different endian"
+readme = "README.md"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
