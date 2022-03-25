@@ -4,8 +4,11 @@
 dependence
 需要先安装rust
 ```bash
+# MacOS
+brew install rust
+# Centos
 yum install rust
-git clone
+git clone git@github.com:lihe2019/crash-tools.git
 cargo build --release
 ```
 
